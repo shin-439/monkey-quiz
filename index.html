@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Monkey Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>Monkey Quiz</h1>
+    <div class="question">
+      <p id="question">問題がここに表示されます</p>
+      <ul>
+        <li id="choices1">A</li>
+        <li id="choices2">B</li>
+        <li id="choices3">C</li>
+      </ul>
+    </div>
+    <div class="ans">
+    <!-- 選択肢(回答ボタン) -->
+      <button type="button" id="ans1" onclick="ansCheck(1)">1</button>
+      <button type="button" id="ans2" onclick="ansCheck(2)">2</button>
+      <button type="button" id="ans3" onclick="ansCheck(3)">3</button>
+    </div>
+    <div id="reload">
+      最初に戻る
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
