@@ -1,0 +1,65 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  background-color: #c0c0c0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.question p{
+  font-size: 28px;
+  text-align: center;
+}
+
+.question {
+  background-color: #008b8b;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  font-size: 24px;
+}
+
+.ABC {
+ margin-bottom: 10px;
+}
+
+ul {
+  float:left;
+}
+
+li{
+  list-style: none;
+}
+
+button {
+  background-color: #556b2f;
+  height: 48px;
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:hover,
+#reload:hover{
+  opacity: 0.7
+}
+
+#reload {
+  margin: 0 auto;
+  background-color: #2e8b57;
+  width: 500px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+}
